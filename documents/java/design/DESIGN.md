@@ -15,6 +15,7 @@ java涉及到的设计模式共有23种,设计模式供遵循六大原则：
 - 5.迪米特法则，又称最好啊知道原则(Demeter Principle)
 - 6.合成复用原则(Composite Reuse Principle)
 
+
 ## 设计模式
 
 ### 创建型设计模式
