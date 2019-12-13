@@ -45,9 +45,11 @@ java最简单的设计模式之一，涉及一个单一的类，该类负责创�
 
 - [设计模式之单例模式](https://www.jianshu.com/p/3bfd916f2bb2)
 
-### 建造者模式(Builder Pattern)
+### 建造者模式 
+英文名称：Builder Pattern
 使用多个简单的对象一步一步构建成一个复杂的对象。例如：java中的StringBuilder.
-### 原型模式(Prototype Pattern)
+### 原型模式 
+英文名称：Prototype Pattern
 
 ## 结构型设计模式
 
