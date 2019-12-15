@@ -4,14 +4,17 @@ redis通过MUTLTI，EXEC，WATCH等命令来实现事务（transaction）功能�
 
 特点：redis事务不支持回滚,即使事务队列中的命令是执行错误的，也会执行下去，直到事务队列中的命令一直执行下去。
 
-ACID：
-1 耐久性：redis服务器在无持久化的内存模式下运作时，以及服务器不再RDB持久化模式下运作时，在AOF下appendfsync选项为everysec和no时，事务不具有耐久性，
+***ACID***：
+- **持久性**：redis服务器在无持久化的内存模式下运作时，以及服务器不再RDB持久化模式下运作时，在AOF下appendfsync选项为everysec和no时，事务不具有耐久性，
         当服务器在AOF持久化模式下，并且appendfsync选项为always时，事务具有耐久性。
-2 隔离性：redis是使用单线程的方式来执行事务。所以redis的事务都是串行方式执行因此总是具有隔离性。
-3 原子性：不支持混滚但是碰到错误会一直执行下去。
-4 一致性：
+- **隔离性**：redis是使用单线程的方式来执行事务导致redis的事务都是串行方式执行,因此总是具有隔离性。
+- **原子性**：不支持混滚但是碰到错误会一直执行下去。
+- **一致性**：
 
-WATCH
-watched_keys  
+***WATCH***
+
+带有WATCH命令的事务会将客户端和被监视的键在数据库的watched_keys字典中进行关联，
+
+***watched_keys***
 
 redis与mysql的事务管理的区别：关系型数据库与非关系型数据库
