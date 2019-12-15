@@ -21,5 +21,5 @@ LRU驱动时间(LRU eviction),事务(transactions)和不同级别的磁盘持久
 
 
 
-###注释：
+### 注释：
 内容来源于[redis中文网](http://www.redis.cn/)
