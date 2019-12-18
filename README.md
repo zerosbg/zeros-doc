@@ -13,6 +13,15 @@
     - [关键字（static,final, instanceof ）](#关键字)
 - [数据结构与算法](#数据结构与算法)
 - [网络](#网络)
+- [框架](#框架篇)
+- [中间件+数据库](#中间件+数据库)
+    - [缓存数据库redis](#缓存数据库redis)
+    - [关系型数据库mysql](#关系型数据库mysql)
+    - [非关系型数据库mongodb](#非关系型数据库mongodb)
+    - [搜索引擎Elastic](#搜索引擎Elastic)
+    - [队列kafka,rabbitmq,rocketMq...](#队列kafka,rabbitmq,rocketmq...)
+    - [负载均衡nginx](#负载均衡nginx)
+    - [大数据存储系统hbase](#大数据存储系统hbase)
 - [提升](#提升)
 
 ## java基础
@@ -54,16 +63,15 @@
 
 ## 中间件+数据库
 
-### 缓存数据库 redis
+### 缓存数据库redis
  [redis基本知识与相关面试题](/redis/redis-summary.MD)
-### 关系型数据库 mysql
+### 关系型数据库mysql
 ### 非关系型数据库mongodb
-### 搜索引擎 Elastic
-### 队列 kafka，rabbitmq,rocketMq
-### 负载均衡 -- nginx
-### 大数据存储系统 hbase
+### 搜索引擎Elastic
+### 队列kafka,rabbitmq,rocketMq...
+### 负载均衡nginx
+### 大数据存储系统hbase
 ### 数据仓库 
-### 
 
 
 ## 提升
