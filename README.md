@@ -8,7 +8,7 @@
 - [java基础篇](#java基础)
     - [设计模式](#设计模式)
     - [IO相关](#IO)
-    - [集合相关](#集合相关)
+    - [集合相关](#集合相关) 
     - [注解](#注解)
     - [关键字（static,final, instanceof ）](#关键字)
 - [数据结构与算法](#数据结构与算法)
@@ -31,7 +31,7 @@
 ### 设计模式
 - [java相关的23种设计模式](documents/java/design/DESIGN.md)
 ### IO
- 
+
 ### 容器
 
 ### 集合相关
@@ -45,6 +45,8 @@
 ### 并发
 
 ### java锁相关
+
+- [ReentrantLock实现的公平锁于非公平锁](/documents/java/blog/ReentrantLock.md)
 
 ### java经典面试题
 - ***两个线程之间怎么互相之间通信，有多少种方式，各个方式之间的优缺点***
