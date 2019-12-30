@@ -52,7 +52,10 @@ java涉及到的设计模式共有23种,设计模式供遵循六大原则：
 
 使用场景：1.日志记录器：记录可能可能记录到本地硬盘，系统事件，远程服务器等，用户可以选择记录日志到什么地方。2.数据库访问，当用户不知道最后系统采用哪一类的数据库，以及数据库可能有变化时。
 
+spring中用到的工厂模式 - BeanFactory
+
 链接：[工厂模式](https://www.runoob.com/design-pattern/factory-pattern.html)
+
 
 ### 抽象工厂模式
 是围绕一个超级工厂创建其他工厂。该超级工厂又称为其他工厂的工厂。
@@ -60,6 +63,8 @@ java涉及到的设计模式共有23种,设计模式供遵循六大原则：
 java最简单的设计模式之一，涉及一个单一的类，该类负责创建自己的对象且确保之后单个对象被创建。这个类提供了一种访问其唯一的对象的方式，可以直接访问，不需要示例化该类的对象。
 
 分为：懒汉式（线程不安全）,懒汉式（线程安全）,饿汉式（线程安全）,双检锁/双重校验锁
+
+链接：[单例模式](https://www.runoob.com/design-pattern/singleton-pattern.html)
 
 - [设计模式之单例模式](https://www.jianshu.com/p/3bfd916f2bb2)
 
@@ -79,8 +84,11 @@ java中继承Cloneable，重写clone()。
 ### 适配器模式
 
 适配器模式（Adapter Pattern）：两个不兼容的接口之间的桥梁
+链接：[适配器模式](https://www.runoob.com/design-pattern/adapter-pattern.html)
 
-spring中多有用到适配器模式
+spring中多有用到适配器模式: - HandlerApdapter
+
+
 
 ### 装饰器模式
 
