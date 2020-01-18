@@ -99,6 +99,8 @@ spring中多有用到适配器模式: - HandlerApdapter
 
 ### 代理模式
 
+spring中用到的代理模式 AopProxy
+
 ### 外观模式
 ### 桥接模式
 ### 组合模式
